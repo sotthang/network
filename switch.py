@@ -21,8 +21,8 @@ for IP in Dell_S_IP_list:
         'device_type': 'dell_os9',
         'ip': IP.strip(),
         'port': '22',
-        'username': 'admin',
-        'password': 'password',
+        'username': 'id',
+        'password': 'pw',
         'secret': 'secret',
         'verbose': True
     }
@@ -44,8 +44,8 @@ for IP in Dell_N_IP_list:
         'device_type': 'dell_os6',
         'ip': IP.strip(),
         'port': '22',
-        'username': 'admin',
-        'password': 'password',
+        'username': 'id',
+        'password': 'pw',
         'secret': 'secret',
         'verbose': True
     }
@@ -67,8 +67,8 @@ for IP in Cisco_IP_list:
         'device_type': 'cisco_ios',
         'ip': IP.strip(),
         'port': '22',
-        'username': 'admin',
-        'password': 'password',
+        'username': 'id',
+        'password': 'pw',
         'secret': 'secret',
         'verbose': True
     }
