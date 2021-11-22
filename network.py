@@ -34,7 +34,7 @@ for IP in Dell_S_IP_list:
     # switch command
 
     hostname =  net_connect.find_prompt()[:-1]
-    with open(f'config/{hostname}.text', 'w') as f:
+    with open(f'config/{hostname}.txt', 'w') as f:
         f.write(output)
     # save file
 
@@ -57,7 +57,7 @@ for IP in Dell_N_IP_list:
     # switch command
 
     hostname =  net_connect.find_prompt()[:-1]
-    with open(f'config/{hostname}.text', 'w') as f:
+    with open(f'config/{hostname}.txt', 'w') as f:
         f.write(output)
     # save file
 
